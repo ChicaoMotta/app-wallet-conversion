@@ -1,6 +1,4 @@
-Certainly! Here's a README file for your project in both English and Portuguese:
 
-### English README:
 
 # Wallet Conversion to Brazilian Real App
 
