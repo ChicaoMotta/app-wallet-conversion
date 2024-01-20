@@ -1,14 +1,12 @@
-
-
 # Wallet Conversion to Brazilian Real App
 
-Welcome to the Wallet Conversion to Brazilian Real App! This React application helps users track their expenses by allowing them to input purchase details, such as a description, tag, and the currency in which the purchase was made. The app then adds the information to a table and automatically calculates the equivalent value in Brazilian Real. Users can view a summary of all their expenses, edit or delete entries, and manage their wallet effectively.
+Welcome to the Wallet Conversion to Brazilian Real App! This React application, built entirely with React class components, helps users track their expenses by allowing them to input purchase details, such as a description, tag, and the currency in which the purchase was made. The app then adds the information to a table and automatically calculates the equivalent value in Brazilian Real using up-to-date currency ratios from an external API. Users can view a summary of all their expenses, edit or delete entries, and manage their wallet effectively.
 
 ## Features
 
 - **Expense Tracking:**
   - Users can input purchase details, including description, tag, and currency.
-  - The app calculates and displays the equivalent value in Brazilian Real.
+  - The app fetches up-to-date currency ratios from an external API and calculates the equivalent value in Brazilian Real.
 
 - **Table Summary:**
   - All expenses are displayed in a table, providing a summary for the user.
@@ -20,7 +18,7 @@ Welcome to the Wallet Conversion to Brazilian Real App! This React application h
 
 ## Technologies Used
 
-- React
+- React (Class Components)
 - Redux
 - React Router DOM
 
@@ -63,13 +61,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 # Aplicativo de Conversão de Carteira para Real Brasileiro
 
-Bem-vindo ao Aplicativo de Conversão de Carteira para Real Brasileiro! Esta aplicação React ajuda os usuários a acompanhar suas despesas, permitindo que insiram detalhes de compra, como descrição, tag e a moeda em que a compra foi feita. O aplicativo adiciona automaticamente as informações a uma tabela e calcula o valor equivalente em Real Brasileiro. Os usuários podem visualizar um resumo de todas as suas despesas, editar ou excluir entradas e gerenciar efetivamente sua carteira.
+Bem-vindo ao Aplicativo de Conversão de Carteira para Real Brasileiro! Esta aplicação React, construída inteiramente com componentes de classe React, ajuda os usuários a acompanhar suas despesas, permitindo que insiram detalhes de compra, como descrição, tag e a moeda em que a compra foi feita. O aplicativo adiciona automaticamente as informações a uma tabela e calcula o valor equivalente em Real Brasileiro usando taxas de câmbio atualizadas de uma API externa. Os usuários podem visualizar um resumo de todas as suas despesas, editar ou excluir entradas e gerenciar efetivamente sua carteira.
 
 ## Recursos
 
 - **Rastreamento de Despesas:**
   - Os usuários podem inserir detalhes de compra, incluindo descrição, tag e moeda.
-  - O aplicativo calcula e exibe o valor equivalente em Real Brasileiro.
+  - O aplicativo busca taxas de câmbio atualizadas de uma API externa e calcula o valor equivalente em Real Brasileiro.
 
 - **Resumo da Tabela:**
   - Todas as despesas são exibidas em uma tabela, fornecendo um resumo para o usuário.
@@ -81,7 +79,7 @@ Bem-vindo ao Aplicativo de Conversão de Carteira para Real Brasileiro! Esta apl
 
 ## Tecnologias Utilizadas
 
-- React
+- React (Componentes de Classe)
 - Redux
 - React Router DOM
 
