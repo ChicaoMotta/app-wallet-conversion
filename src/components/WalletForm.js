@@ -72,7 +72,8 @@ class WalletForm extends Component {
       return (
         <div
           className="col-12 d-flex flex-row align-items-center
-          justify-content-around p-0 py-4 mb-5 bg-light rounded border border-secondary"
+          justify-content-around p-0 py-4 mb-5 bg-light rounded border border-secondary
+          flex-wrap"
         >
           <label htmlFor="" className="d-flex flex-column ">
             Valor da compra:
@@ -158,7 +159,8 @@ class WalletForm extends Component {
     return (
       <div
         className="col-12 d-flex flex-row align-items-center
-      justify-content-around p-0 py-4 mb-5 bg-light rounded border border-secondary"
+      justify-content-around p-0 py-4 mb-5 bg-light rounded border border-secondary
+      flex-wrap"
       >
         <label htmlFor="" className="d-flex flex-column ">
           Valor da compra:
